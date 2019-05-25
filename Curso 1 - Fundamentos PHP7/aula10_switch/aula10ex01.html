@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="_css/estilo.css"/>
+		<meta charset="UTF-8"/>
+		<title>Curso de PHP - CursoemVideo.com</title>
+	</head>
+
+	<body>
+		<div>
+			<form method="get" action="aula10ex01.php">
+			Entre com um valor e escolha a operação.<br/>
+				<input type="number" name="num"/><br/>
+				
+				<fieldset> <legend>Operação</legend>
+					<input type="radio" name="operacao" value="dobro" id="labeldobro" checked/>
+					<label for="labeldobro">Dobro</label>
+					
+					<input type="radio" name="operacao" value="rq" id="labelrq"/>
+					<label for="labelrq">Raíz Quadrada</label>
+					
+					<input type="radio" name="operacao" value="cubo" id="labelcubo"/>
+					<label for="labelcubo">Cubo</label>
+				</fieldset>
+
+				<br/><input type="submit" class="botao" value="Calcular"/>
+			</form>
+		</div>
+	</body>
+</html>
+ 
